@@ -4,6 +4,7 @@ import theme from '../lib/theme'
 import GlobalStyle from '../components/utility/GlobalStyle'
 import Layout from '../components/Layout'
 import {motion,AnimatePresence} from 'framer-motion'
+import Footer from '../components/Footer'
 
 const variant = {
   initial: {opacity: 0,y: 20},
@@ -26,6 +27,7 @@ function MyApp({ Component, pageProps,router }) {
       
       >
     <Component {...pageProps} />
+    <Footer/>
       </motion.div>
     </AnimatePresence>
     </Layout>

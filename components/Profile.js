@@ -17,7 +17,18 @@ const Profile = () => {
         objectFit='cover'/>
         </Box>
         </Center>
-        <Heading lineHeight={'base'} letterSpacing={1} size='sm' fontWeight={'normal'} textAlign='justify' maxW='md' mx={'auto'}>
+        <Heading
+        mb={5}
+        borderTop='2px'
+        borderColor={'blue.400'} 
+        pt={3} 
+        lineHeight={'base'} 
+        letterSpacing={1} 
+        size='sm' 
+        fontWeight={'normal'} 
+        textAlign='justify' 
+        maxW='md' 
+        mx={'auto'}>
         <b>Ivan Angjelkoski</b> is a front-end web developer with a solid background in JavaScript frameworks like <b>React</b> and <b>Next.js</b> and is also familiar with the <b>MERN</b> (MongoDB, Express, React, and Node.js) software stack.Currently Living In <b>🇲🇰 Macedonia</b>.
         </Heading>
     </Box>

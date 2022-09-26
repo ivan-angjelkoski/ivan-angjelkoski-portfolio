@@ -54,7 +54,7 @@ const MobileNav = () => {
       <MenuButton as={IconButton} variant='outline' colorScheme='blue' icon={<HamburgerIcon/>}/>
       <MenuList>
         {NavLinks.map(link=>(<Link key={link.label} href={link.href} passHref>
-          <MenuItem as={ChLink} icon={link.icon && <link.icon/>}>{link.label}</MenuItem>
+          <MenuItem as={ChLink} _hover={{textDecoration: 'none'}} icon={link.icon && <link.icon/>}>{link.label}</MenuItem>
         </Link>))}
       </MenuList>
     </Menu>
