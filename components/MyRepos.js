@@ -9,6 +9,7 @@ import {
 import React from "react";
 
 const MyRepos = ({ repos }) => {
+	const linkColor = useColorModeValue("black", "blue.200");
 	return (
 		<Box
 			borderTop='2px'
@@ -34,7 +35,7 @@ const MyRepos = ({ repos }) => {
 					>
 						<Link
 							opacity={0.8}
-							color={useColorModeValue("black", "blue.200")}
+							color={linkColor}
 							href={repo.html_url}
 							target='_blank'
 							referrerPolicy='no-referrer'
